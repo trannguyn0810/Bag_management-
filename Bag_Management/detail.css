@@ -1,0 +1,78 @@
+.select-container {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F9EFDB;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.option-label {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header-top {
+    color: #fd2b67;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.product-image {
+    margin-left: 200px;
+    flex: 0 0 auto;
+}
+
+.product-info {
+    font-size: 30px;
+    margin-left: 40px;
+    flex: 1;
+    color: black;
+}
+
+.buy-buttons {
+    display: flex;
+    margin-top: 20px;
+}
+
+.buy-buttons a,
+.buy-buttons button {
+    margin-right: 10px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.nav-link {
+    margin-left: 20px;
+}
+
+.quantity-container {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-input {
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px; /* Khoảng cách giữa nút và input */
+    border-radius: 8px; /* Bo góc cho input */
+    border: 1px solid #ccc; /* Đường viền */
+}
+
+.quantity-control {
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%; /* Bo góc cho nút */
+    background-color: #eee; /* Màu nền nút */
+    padding: 5px 5px; /* Kích thước nút */
+}

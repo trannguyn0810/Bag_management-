@@ -1,0 +1,31 @@
+.header-top{
+    min-height: 40px;
+    z-index: 11;
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: black;
+    background-color: #C08261;
+}
+
+.nav{
+    width: 100%;
+    margin-left: 20px;
+}
+.nav-divided{
+    padding: 0;
+    width: 100%;
+}
+.container{
+    text-underline: black;
+}
+.title{
+    margin-top: 50px;
+    text-align: center ;
+    font-family: 'Charmonman';
+    text-transform: none;
+    font-weight: bold;
+    font-size: 34px;
+    color: #fd2b67
+}
+
